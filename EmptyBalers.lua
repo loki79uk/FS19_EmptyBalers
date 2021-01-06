@@ -78,7 +78,9 @@ function EmptyBalers:emptyBaler(vehicle, noEventSend)
 	baler.lastBaleFillLevel = 0
 
 	if noEventSend == nil or noEventSend == false then
-		if g_server == nil then
+		if g_server ~= nil then
+			g_server:broadcastEvent(EmptyBalerEvent:new(vehicle), nil, nil, self)
+		else
 			g_client:getServerConnection():sendEvent(EmptyBalerEvent:new(vehicle))
 		end
 	end
@@ -134,6 +136,10 @@ end
 
 function EmptyBalerEvent:run(connection)
 	if not connection:getIsServer() then
+		--print("EmptyBalerEvent: server")
+		self.object:emptyBaler(self.object, true)
+	else
+		--print("EmptyBalerEvent: client")
 		self.object:emptyBaler(self.object, true)
 	end
 end
