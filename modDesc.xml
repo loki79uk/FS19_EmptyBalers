@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="53">
 	<author>loki_79</author>
-    <version>1.0.0.0</version>
+    <version>1.0.1.0</version>
 	<title>
         <en>Empty Balers</en>
         <de>Leere Ballenpressen</de>
@@ -14,6 +14,9 @@ Features:
 - Remove partial bales from any baler
 - Works with square and round bales
 - Cotton bales are unaffected
+
+Changelog:
+v1.0.1.0 - Multiplayer bug fix where dummy bale was not deleted on the server
 ]]>
 </en>
 <de><![CDATA[Dieser Mod fügt einen Knopf zum Entleeren einer teilweise vollen Ballenpresse hinzu, so dass Sie einen neuen Fülltyp starten können [Standard CTRL-DELETE].  Sie müssen zuerst alle kompletten Ballen entladen, aber ansonsten kann die Aktion jederzeit ausgeführt werden.  Der teilweise gefüllte Ballen verschwindet und die Presse akzeptiert dann die nächste Füllart.
@@ -22,6 +25,9 @@ Merkmale:
 - Entfernen teilweiser Ballen von jeder Ballenpresse
 - Arbeitet mit quadratischen und runden Ballen
 - Baumwollballen sind davon nicht betroffen
+
+Changelog:
+v1.0.1.0 - Multiplayer-Fehler behoben, bei dem der Dummy-Ballen auf dem Server nicht gelöscht wurde
 ]]>
 </de>
 <fr><![CDATA[Ce mod ajoute un bouton pour vider une presse à balles partiellement pleine afin de pouvoir commencer un nouveau type de remplissage [par défaut CTRL-DELETE].  Vous devez d'abord décharger les balles complètes, mais sinon l'action peut être effectuée à tout moment.  La balle partielle disparaîtra et la presse acceptera alors le type de remplissage suivant.
@@ -30,6 +36,9 @@ Caractéristiques:
 - Retirer des balles partielles de n'importe quelle presse à balles
 - Fonctionne avec des balles carrées et rondes
 - Les balles de coton ne sont pas touchées
+
+Changelog:
+v1.0.1.0 - Correction d'un bug multijoueur où la fausse balle n'était pas supprimée sur le serveur
 ]]>
 </fr>
     </description>
