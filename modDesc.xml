@@ -41,6 +41,15 @@ Changelog:
 v1.0.1.0 - Correction d'un bug multijoueur où la fausse balle n'était pas supprimée sur le serveur
 ]]>
 </fr>
+<cz><![CDATA[Tento mod přidává tlačítko pro vyprázdnění částečně plného lisu, abyste mohli spustit nový typ plnění [výchozí CTRL-DELETE]. Veškeré kompletní balíky musíte nejprve vyložit, ale jinak lze akci provést kdykoli. Částečný balík zmizí a lis pak přijme další typ plnění.
+Funkce:
+- Odstraní nedokončené balíky z jakéhokoli lisu
+- Pracuje s hranatými i kulatými balíky
+- Balíky bavlny nejsou ovlivněny
+Seznam změn:
+v1.0.1.0 - Oprava chyby pro více hráčů, kdy fiktivní balík nebyl smazán na serveru
+]]>
+</cz>	    
     </description>
 	
 	<multiplayer supported="true" />
@@ -62,11 +71,13 @@ v1.0.1.0 - Correction d'un bug multijoueur où la fausse balle n'était pas supp
 			<en>Empty Baler</en>
 			<de>Leere Ballenpresse</de>
 			<fr>Presse à Balles Vides</fr>
+			<cz>Vyprázdnit lis na balíky</cz>
 		</text>
 		<text name="input_EMPTY_BALER">
 			<en>Empty Baler</en>
 			<de>Leere Ballenpresse</de>
 			<fr>Presse à Balles Vides</fr>
+			<cz>Vyprázdnit lis na balíky</cz>
 		</text>
 	</l10n>
 	
